@@ -7,7 +7,7 @@
             "type": "process",
             "args": [
                 "build",
-                "${workspaceFolder}/ultimate-tic-tac-toe.csproj"
+                "${workspaceFolder}/site/ultimate-tic-tac-toe.csproj"
             ],
             "problemMatcher": "$msCompile"
         }
