@@ -28,6 +28,7 @@ Obj/
 
 # Visual Studio 2015 cache/options directory
 .vs/
+.vscode/
 /wwwroot/dist/
 /ClientApp/dist/
 
@@ -184,7 +185,7 @@ ClientBin/
 orleans.codegen.cs
 
 /node_modules
-
+*/node_modules
 /yarn.lock
 
 # RIA/Silverlight projects
