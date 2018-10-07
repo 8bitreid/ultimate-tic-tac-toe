@@ -1,7 +1,26 @@
 /* Customize CSS for app here */
+html,
+body,
+main {
+    height: 100%;
+    width: 100%;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
 .body-content {
     padding-top: 60px;
 }
-@media (max-width: 767px) {
- 
+
+@media screen and (max-width: 400px) {
+
+}
+
+@media screen and (min-width: 401px) and (max-width: 599px) {
+   
+}
+
+@media screen and (min-width: 600px) {
+
 }
