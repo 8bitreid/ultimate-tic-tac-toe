@@ -30,6 +30,7 @@ Obj/
 .vs/
 .vscode/
 /wwwroot/dist/
+*/wwwroot/dist/
 /ClientApp/dist/
 
 # MSTest test Results
