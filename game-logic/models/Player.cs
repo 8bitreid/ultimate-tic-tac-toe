@@ -8,5 +8,7 @@ namespace game_logic.models
     {
         public int Id { get; set; }
         public string Name { get; set; }
+
+        public Player(int id) => Id = id;
     }
 }
