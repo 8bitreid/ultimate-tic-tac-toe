@@ -7,7 +7,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ultimate-tic-tac-toe", "sit
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{A607ECC4-37DA-4AA1-A4E3-045A30D7DCDA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "game-logic", "game-logic\game-logic.csproj", "{00E6539C-B7DE-47F2-B5D4-42D2CEE03A7B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "game-logic", "game-logic\game-logic.csproj", "{00E6539C-B7DE-47F2-B5D4-42D2CEE03A7B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "board-tests", "board-tests\board-tests.csproj", "{73DB1718-3E20-4D95-AF04-C21A422D19CD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,9 +25,16 @@ Global
 		{00E6539C-B7DE-47F2-B5D4-42D2CEE03A7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{00E6539C-B7DE-47F2-B5D4-42D2CEE03A7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{00E6539C-B7DE-47F2-B5D4-42D2CEE03A7B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73DB1718-3E20-4D95-AF04-C21A422D19CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73DB1718-3E20-4D95-AF04-C21A422D19CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73DB1718-3E20-4D95-AF04-C21A422D19CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73DB1718-3E20-4D95-AF04-C21A422D19CD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{73DB1718-3E20-4D95-AF04-C21A422D19CD} = {A607ECC4-37DA-4AA1-A4E3-045A30D7DCDA}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5D150F12-B181-4D1F-A9A4-17122A4798E1}
