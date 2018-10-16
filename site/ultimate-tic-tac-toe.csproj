@@ -52,6 +52,8 @@
 
   <Target Name="PreBuild" BeforeTargets="PreBuildEvent">
     <Exec Command="npm install" />
+    <Exec Command="webpack --config webpack.config.vendor.js" />
+    <Exec Command="webpack" />
   </Target>
 
 </Project>
