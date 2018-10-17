@@ -1,6 +1,7 @@
 # Ultimate Tic-Tac-Toe
 ### General
 Rules [here](https://hacktoberfest.digitalocean.com/details)  
+Info [Wiki](https://en.wikipedia.org/wiki/Ultimate_tic-tac-toe)
 
 #### [Project Board](https://github.com/8bitreid/ultimate-tic-tac-toe/projects/1) 
 Please use the `#hacktoberfest` label on any [Issues](https://github.com/8bitreid/ultimate-tic-tac-toe/issues) created so future Pull Request will count towards your Hacktoberfest PRs.  
