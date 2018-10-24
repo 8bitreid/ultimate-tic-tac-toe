@@ -8,10 +8,10 @@ using game_logic.models;
 namespace site.Controllers
 {
     [Route("api/[controller]")]
-    public class GameController : Controllers
+    public class GameController : Controller
     {
        [HttpGet("[action]")]
-       public IAsyncResult NewGame()
+       public IActionResult NewGame()
        {
            var game = new Game();
            return Ok(game);
