@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.2019
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ultimate-tic-tac-toe", "site\ultimate-tic-tac-toe.csproj", "{32EBFD73-BB4B-4972-84BB-980BEA418676}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{A607ECC4-37DA-4AA1-A4E3-045A30D7DCDA}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "game-logic", "game-logic\game-logic.csproj", "{00E6539C-B7DE-47F2-B5D4-42D2CEE03A7B}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "board-tests", "board-tests\board-tests.csproj", "{73DB1718-3E20-4D95-AF04-C21A422D19CD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "site", "site\site.csproj", "{B80B7344-4FDD-4688-A2ED-411C08CBD30C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,6 +29,10 @@ Global
 		{73DB1718-3E20-4D95-AF04-C21A422D19CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{73DB1718-3E20-4D95-AF04-C21A422D19CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{73DB1718-3E20-4D95-AF04-C21A422D19CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B80B7344-4FDD-4688-A2ED-411C08CBD30C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B80B7344-4FDD-4688-A2ED-411C08CBD30C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B80B7344-4FDD-4688-A2ED-411C08CBD30C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B80B7344-4FDD-4688-A2ED-411C08CBD30C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

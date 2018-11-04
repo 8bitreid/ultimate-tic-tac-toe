@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 
-namespace ultimate_tic_tac_toe.Controllers
+namespace site.Controllers
 {
     [Route("api/[controller]")]
     public class SampleDataController : Controller
@@ -25,7 +25,7 @@ namespace ultimate_tic_tac_toe.Controllers
                 Summary = Summaries[rng.Next(Summaries.Length)]
             });
         }
-        
+
         public class WeatherForecast
         {
             public string DateFormatted { get; set; }
