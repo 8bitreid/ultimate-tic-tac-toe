@@ -1,0 +1,11 @@
+table {
+  width: 100%;
+}
+td {
+  width: 33.333%;
+}
+td:after {
+  content: '';
+  display: block;
+  margin-top: 100%;
+}
