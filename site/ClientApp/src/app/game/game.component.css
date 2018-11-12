@@ -1,11 +1,22 @@
-table.board {
-  width: 100%;
+.game-board
+{
+	width: 500px;
+	height: 500px;
+	margin: 0 auto;
+  background-color: #ffffff;
+  color: #76797c;
+  border: 6px solid #76797c;
+  border-radius: 8px;
+
+	display: grid;
+	grid-template: repeat(3, 1fr) / repeat(3, 1fr);
 }
-td {
-  width: 33.333%;
-}
-td:after {
-  content: '';
-  display: block;
-  margin-top: 100%;
+
+.box
+{
+  border: 6px solid #76797c;
+  border-radius: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
